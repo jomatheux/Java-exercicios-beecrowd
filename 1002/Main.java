@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException{
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double PI = 3.14159;
-        double raio = sc.nextDouble();
+        double raio = scanner.nextDouble();
         double area = 0;
         area = PI * Math.pow(raio, 2);
         
         System.out.printf("A=%.4f%n",area);
-        sc.close();
+        scanner.close();
     }
 }
